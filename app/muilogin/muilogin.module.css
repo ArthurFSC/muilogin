@@ -1,0 +1,38 @@
+/* muilogin/muilogin.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; /* Define largura completa da viewport */
+}
+
+.loginBox {
+  background-color: #3a3a3a; /* Fundo da caixa de login */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px; /* Limita o tamanho da caixa de login */
+}
+
+.loginTitle {
+  color: #ffffff; /* Cor branca para o título */
+  font-weight: bold;
+}
+
+.loginInput {
+  background-color: #4a4a4a; /* Cor de fundo dos campos de input */
+  border-radius: 4px;
+  color: white;
+}
+
+.loginButton {
+  background-color: #5a5a5a; /* Cor do botão de login */
+  color: white;
+}
+
+.loginButton:hover {
+  background-color: #4a4a4a; /* Cor do botão ao passar o mouse */
+}
